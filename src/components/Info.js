@@ -12,7 +12,10 @@ const Info = () => {
         </h3>
         <p>radoh.website</p>
         <div className="flex justify-around mt-6">
-          <button className="flex justify-center items-center  w-40 bg-white text-[#374151] rounded-2xl   capitalize font-medium py-2 ">
+          <button
+            className="flex justify-center items-center  bg-gradient-to-r from-sky-500 to-indigo-500   w-40 text-white rounded-2xl   capitalize font-medium
+          "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-2"
@@ -24,7 +27,7 @@ const Info = () => {
             </svg>
             email
           </button>
-          <button className="flex justify-center items-center w-40 bg-[#5093e2] rounded-2xl capitalize font-medium py-2">
+          <button className="flex justify-center items-center w-40  bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl capitalize font-medium py-2">
             <svg
               stroke="currentColor"
               fill="currentColor"
