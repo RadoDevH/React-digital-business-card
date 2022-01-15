@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="w-card h-card text-white bg-[#1a1b21] rounded-lg overflow-hidden">
+    <div className="flex flex-col  w-card h-card text-white  bg-[#1a1b21] rounded-lg overflow-hidden">
       <Info />
       <About />
       <Interests />

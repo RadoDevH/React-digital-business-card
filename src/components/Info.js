@@ -4,7 +4,7 @@ import logo from "../images/ddd.jpg";
 const Info = () => {
   return (
     <header>
-      <img className="  h-[316px]" src={logo} width="100%" alt="hero-logo" />
+      <img className="  h-[300px]" src={logo} width="100%" alt="hero-logo" />
       <main className="text-center py-6">
         <h1 className="text-4xl capitalize font-bold">rado holubowski</h1>
         <h3 className="text-[#f3bf99] text-2xl capitalize py-3">
